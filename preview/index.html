@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; connect-src 'none'; base-uri 'none'; object-src 'none'; form-action 'none'">
+  <title>Independent Alpha (Dev) · 工作区已就绪</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="preview">
+  <header class="preview-bar">
+    <div class="preview-label"><strong>离线界面预览</strong><span class="offline">合成样例</span></div>
+    <nav class="preview-tools" aria-label="预览场景">
+      <a href="./index.html" aria-current="page">工作区就绪</a>
+      <a href="./outage.html">代理断线</a>
+    </nav>
+  </header>
+  <div class="desktop">
+    <header class="desktop-header">
+      <strong class="app-title">Independent Alpha (Dev)</strong>
+      <nav class="nav" aria-label="页面章节">
+        <a href="#overview" aria-current="page">工作区概览</a>
+        <a href="#statuses">环境状态</a>
+        <a href="#guidance">场景指引</a>
+      </nav>
+      <div class="header-profile"><span class="status status-muted"><i aria-hidden="true"></i>独立 Profile（示例）</span></div>
+    </header>
+    <main id="overview" class="content">
+      <header class="page-heading"><h1>Debian 工作区</h1><p>查看客机、代理与联网状态。</p></header>
+      <div class="minimal-grid">
+        <div>
+          <section class="hero hero-positive">
+            <span class="hero-icon" aria-hidden="true">✓</span>
+            <div class="hero-copy"><h2>工作区已就绪</h2><p>在本示例中，Debian 正在运行，外网授权有效。</p></div>
+            <div class="actions">
+              <a class="primary" href="#statuses">查看环境状态</a>
+              <a class="secondary" href="#guidance">查看场景指引</a>
+            </div>
+          </section>
+          <section id="statuses" class="all-status">
+            <h2>环境状态</h2>
+            <dl class="status-list line-items">
+              <div class="status-row"><dt><span class="row-icon" aria-hidden="true">▣</span>Debian</dt><dd><span class="status status-good"><i aria-hidden="true"></i>正在运行</span></dd></div>
+              <div class="status-row"><dt><span class="row-icon" aria-hidden="true">◎</span>代理核心</dt><dd><span class="status status-good"><i aria-hidden="true"></i>正在运行</span></dd></div>
+              <div class="status-row"><dt><span class="row-icon" aria-hidden="true">◇</span>联网状态</dt><dd><span class="status status-good"><i aria-hidden="true"></i>已授权</span></dd></div>
+            </dl>
+          </section>
+        </div>
+        <aside class="minimum-side">
+          <section class="hint" id="guidance"><h2>下一步</h2><p>从环境状态查看客机、代理与联网状态。</p></section>
+          <section class="timeline" aria-label="最近状态">
+            <h2>最近状态</h2>
+            <ol>
+              <li class="event-good"><time>10:28</time><span>联网状态已更新</span></li>
+              <li class="event-good"><time>10:27</time><span>Debian 保持运行</span></li>
+            </ol>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <footer class="desktop-footer">页面使用固定合成数据，所有链接均在本地预览内。</footer>
+  </div>
+</body>
+</html>
