@@ -1,23 +1,26 @@
-# Claude Cage Independent 项目预览
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nexcove/logo-dark.svg">
+  <img src="assets/nexcove/logo-light.svg" alt="NexCove 标志" width="88">
+</picture>
 
-这个独立衍生项目探索 Windows 主机上的 Debian 工作区体验。工作区首页集中展示客机、代理和联网状态，设置和首次启动围绕专用 Profile 组织。
+# NexCove
 
-**当前公开范围是项目介绍、路线图和离线界面原型。完整应用源码尚未发布，当前没有公开的 Windows 下载。**
+**独立空间，自由开发。**
 
-## 界面预览
+面向 AI 编程与开发工具的独立隔离工作区。NexCove 在 Windows 主机上组织 Debian 工作区，并在一个界面中展示客机、代理、联网与专用 Profile 状态。
 
-以下截图来自合成场景，用于展示工作区布局和状态提示。
+[English](README.en.md) · [项目路线图](ROADMAP.md) · [早期离线原型](preview/)
 
-### 工作区就绪
+**这是项目预览。完整应用源码尚未发布，Windows 便携包暂不提供公开下载。**
 
-![合成场景中的工作区就绪页面](preview/screenshots/workspace-ready.png)
+## 工作区预览
 
-### 代理断线
+以下为离线合成场景，用于展示界面。
 
-![合成场景中的代理断线提示](preview/screenshots/proxy-offline.png)
+![NexCove 浅色工作区](assets/nexcove/home-light.png)
 
-将 [离线原型目录](preview) 保存到本地后，在浏览器中打开 [index.html](preview/index.html) 即可查看。需要了解后续安排时，请阅读 [项目路线图](ROADMAP.md)。
+![NexCove 深色工作区](assets/nexcove/home-dark.png)
 
 ## 来源与许可
 
-独立项目源自 [Claude Cage](https://github.com/Lee-xeo/Claude-Cage) 和 [agent-vm](https://github.com/sylvinus/agent-vm)。保留原作者、贡献者和第三方组件署名。仓库自有内容适用 [MIT](LICENSE)，第三方内容适用相应条款，见 [NOTICE](NOTICE)、[第三方许可证](THIRD_PARTY_LICENSES) 和 [预览附带声明](preview/THIRD-PARTY-NOTICES.txt)。
+NexCove 源自 [Claude Cage](https://github.com/Lee-xeo/Claude-Cage) 与 [agent-vm](https://github.com/sylvinus/agent-vm)。保留原作者、贡献者和第三方组件署名。查看 [MIT 许可证](LICENSE)、[NOTICE](NOTICE) 和[第三方许可证](THIRD_PARTY_LICENSES)。
