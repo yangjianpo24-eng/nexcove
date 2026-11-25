@@ -9,9 +9,9 @@
 
 面向 AI 编程与开发工具的独立隔离工作区。NexCove 在 Windows 主机上组织 Debian 工作区，并在一个界面中展示客机、代理、联网与专用 Profile 状态。
 
-[English](README.en.md) · [项目路线图](ROADMAP.md) · [早期离线原型](preview/)
+[English](README.en.md) · [项目路线图](ROADMAP.md) · [界面组件源码](ui-source-preview/) · [早期离线原型](preview/)
 
-**这是项目预览。完整应用源码尚未发布，Windows 便携包暂不提供公开下载。**
+**这是项目预览。现已公开 NexCove 实际使用的品牌字标、外观变量和主题预设源码。完整应用源码与 Windows 便携包仍为私有。**
 
 ## 工作区预览
 

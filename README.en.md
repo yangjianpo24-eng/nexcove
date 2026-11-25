@@ -9,9 +9,9 @@
 
 An isolated workspace for AI coding and development tools. NexCove brings a Debian workspace to Windows and presents guest, proxy, network and dedicated profile status in one place.
 
-[简体中文](README.md) · [Roadmap](ROADMAP.md) · [Early offline prototype](preview/)
+[简体中文](README.md) · [Roadmap](ROADMAP.md) · [UI component source](ui-source-preview/) · [Early offline prototype](preview/)
 
-**This repository is a project preview. The full application source is still pending, and the Windows portable build remains private.**
+**This repository is a project preview. The production wordmark, appearance variables, and theme presets are available as source. The full application source and Windows portable build remain private.**
 
 ## Workspace preview
 
